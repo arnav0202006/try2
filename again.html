@@ -3,39 +3,28 @@
     <head>
         <title>My Webpage!</title>
         <style>
-          table {
-              border: 2px solid black;
-              border-collapse: collapse;
-            }
-          th,td {
-              border: 2px solid black;
+          #top {
+            font-size : 36px;
           }
-          th {
-            background-color: lightgray;
+          #middle {
+            font-size : 23px;
+          }
+          #bottom {
+            font-size = 9px;
+          }
+          .name {
+            font-weight: bold;
           }
         </style>
     </head>
     <body>
-        <h1> Presidents </h1>
-        <div>
-        <table>
-            <tr>
-                <th> First name </th>
-                <th> Last name </th>
-                <th> Years in office </th>
-            </tr>
-            <tr>
-                <th> George </th>
-                <th> Washington </th>
-                <th> 1789-1797 </th>
-            <tr>
-                <th> John </th>
-                <th> Adams </th>
-                <th> 1797-1801 </th>
-            <tr>
-                <th> Thomas </th>
-                <th> Jefferson </th>
-                <th> 1801-1809 </th>
+        <div id="top">
+            This is the <span class="name">top</span> of the Webpage
         </div>
+        <div id="middle">
+            This is the <span class="name">middle</span> of the Webpage
+        </div>
+        <div id="bottom">
+            This is the <span class="name">bottom</span> of the Webpage
     </body>
 </html>
